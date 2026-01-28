@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Elite Finish Car Detailing</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+<h1>Elite Finish Car Detailing</h1>
+<p>Premium Auto Detailing • Showroom Results</p>
+<a href="#booking" class="btn">Book Now</a>
+</header>
+
+<section class="services">
+<h2>Our Services</h2>
+<ul>
+<li>Interior & Exterior Detailing</li>
+<li>Paint Correction</li>
+<li>Ceramic Coatings</li>
+<li>Engine Bay Cleaning</li>
+<li>Mobile & On-Site Service</li>
+</ul>
+</section>
+
+<section id="booking" class="contact">
+<h2>Book an Appointment</h2>
+<form action="book.php" method="POST">
+<input type="text" name="name" placeholder="Full Name" required>
+<input type="email" name="email" placeholder="Email Address" required>
+<input type="tel" name="phone" placeholder="Phone Number" required>
+<select name="service" required>
+<option value="">Select Service</option>
+<option>Interior & Exterior Detail</option>
+<option>Paint Correction</option>
+<option>Ceramic Coating</option>
+<option>Engine Bay Cleaning</option>
+</select>
+<input type="date" name="date" required>
+<textarea name="message" placeholder="Additional Notes"></textarea>
+<button type="submit">Submit Booking</button>
+</form>
+</section>
+
+<footer>
+<p>© 2026 Elite Finish Car Detailing</p>
+</footer>
+
+</body>
+</html>
